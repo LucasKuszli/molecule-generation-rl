@@ -125,6 +125,8 @@ If you want to run purely data/visual tasks with zero training, use the `src.dat
 
 ## License / contact
 
-See project license or contact the maintainer listed in the repository metadata.
+This project is licensed under the MIT License — see the accompanying `LICENSE` file for details.
+
+Contact the maintainer listed in the repository metadata for questions.
 
 

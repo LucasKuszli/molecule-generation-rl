@@ -1,0 +1,201 @@
+{
+  "seed": 42,
+  "pretrain_checkpoint": "/home/lucas/git/molecules_and_ai/artifacts/pretrain/seed_42/best_prior.pt",
+  "best_val_nll": 51.7317,
+  "total_epochs": 20,
+  "n_params": 271131,
+  "vocab_size": 27,
+  "train_sequences": 991,
+  "val_sequences": 111,
+  "device": "cuda",
+  "config": {
+    "batch_size": 16,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "grad_clip": 1.0,
+    "patience": 10,
+    "num_epochs": 20
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_nll": 102.0391,
+      "val_nll": 95.2797,
+      "validity": 0.748,
+      "uniqueness": 1.0,
+      "lr": 0.0001,
+      "elapsed_s": 1.1
+    },
+    {
+      "epoch": 2,
+      "train_nll": 82.912,
+      "val_nll": 83.4643,
+      "validity": 0.6367,
+      "uniqueness": 1.0,
+      "lr": 0.0001,
+      "elapsed_s": 1.0
+    },
+    {
+      "epoch": 3,
+      "train_nll": 73.767,
+      "val_nll": 75.9657,
+      "validity": 0.6152,
+      "uniqueness": 1.0,
+      "lr": 0.0001,
+      "elapsed_s": 1.0
+    },
+    {
+      "epoch": 4,
+      "train_nll": 67.9101,
+      "val_nll": 70.9359,
+      "validity": 0.5312,
+      "uniqueness": 1.0,
+      "lr": 0.0001,
+      "elapsed_s": 1.0
+    },
+    {
+      "epoch": 5,
+      "train_nll": 63.7251,
+      "val_nll": 67.5329,
+      "validity": 0.543,
+      "uniqueness": 1.0,
+      "lr": 0.0001,
+      "elapsed_s": 1.0
+    },
+    {
+      "epoch": 6,
+      "train_nll": 60.5598,
+      "val_nll": 64.9967,
+      "validity": 0.541,
+      "uniqueness": 1.0,
+      "lr": 0.0001,
+      "elapsed_s": 1.0
+    },
+    {
+      "epoch": 7,
+      "train_nll": 58.1336,
+      "val_nll": 63.1819,
+      "validity": 0.5117,
+      "uniqueness": 1.0,
+      "lr": 0.0001,
+      "elapsed_s": 1.0
+    },
+    {
+      "epoch": 8,
+      "train_nll": 56.1714,
+      "val_nll": 61.4476,
+      "validity": 0.4648,
+      "uniqueness": 1.0,
+      "lr": 0.0001,
+      "elapsed_s": 1.0
+    },
+    {
+      "epoch": 9,
+      "train_nll": 54.3675,
+      "val_nll": 60.0208,
+      "validity": 0.4648,
+      "uniqueness": 1.0,
+      "lr": 0.0001,
+      "elapsed_s": 1.0
+    },
+    {
+      "epoch": 10,
+      "train_nll": 52.8822,
+      "val_nll": 58.9904,
+      "validity": 0.4258,
+      "uniqueness": 1.0,
+      "lr": 0.0001,
+      "elapsed_s": 1.0
+    },
+    {
+      "epoch": 11,
+      "train_nll": 51.4464,
+      "val_nll": 57.8852,
+      "validity": 0.4238,
+      "uniqueness": 1.0,
+      "lr": 0.0001,
+      "elapsed_s": 1.0
+    },
+    {
+      "epoch": 12,
+      "train_nll": 50.1364,
+      "val_nll": 57.0038,
+      "validity": 0.4414,
+      "uniqueness": 1.0,
+      "lr": 0.0001,
+      "elapsed_s": 1.0
+    },
+    {
+      "epoch": 13,
+      "train_nll": 49.1201,
+      "val_nll": 56.0429,
+      "validity": 0.4336,
+      "uniqueness": 1.0,
+      "lr": 0.0001,
+      "elapsed_s": 1.0
+    },
+    {
+      "epoch": 14,
+      "train_nll": 47.9942,
+      "val_nll": 55.3008,
+      "validity": 0.4609,
+      "uniqueness": 1.0,
+      "lr": 0.0001,
+      "elapsed_s": 1.0
+    },
+    {
+      "epoch": 15,
+      "train_nll": 47.0656,
+      "val_nll": 54.5521,
+      "validity": 0.459,
+      "uniqueness": 1.0,
+      "lr": 0.0001,
+      "elapsed_s": 1.0
+    },
+    {
+      "epoch": 16,
+      "train_nll": 46.2078,
+      "val_nll": 53.9679,
+      "validity": 0.4629,
+      "uniqueness": 1.0,
+      "lr": 0.0001,
+      "elapsed_s": 1.0
+    },
+    {
+      "epoch": 17,
+      "train_nll": 45.3459,
+      "val_nll": 53.3756,
+      "validity": 0.4355,
+      "uniqueness": 1.0,
+      "lr": 0.0001,
+      "elapsed_s": 1.0
+    },
+    {
+      "epoch": 18,
+      "train_nll": 44.5794,
+      "val_nll": 52.73,
+      "validity": 0.4082,
+      "uniqueness": 1.0,
+      "lr": 0.0001,
+      "elapsed_s": 1.0
+    },
+    {
+      "epoch": 19,
+      "train_nll": 43.7863,
+      "val_nll": 52.221,
+      "validity": 0.4238,
+      "uniqueness": 1.0,
+      "lr": 0.0001,
+      "elapsed_s": 1.0
+    },
+    {
+      "epoch": 20,
+      "train_nll": 43.2083,
+      "val_nll": 51.7317,
+      "validity": 0.418,
+      "uniqueness": 1.0,
+      "lr": 0.0001,
+      "elapsed_s": 1.0
+    }
+  ]
+}

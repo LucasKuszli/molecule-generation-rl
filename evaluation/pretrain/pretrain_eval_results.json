@@ -1,0 +1,14 @@
+{
+  "n_generated": 10000,
+  "n_valid": 9583,
+  "validity": 0.9583,
+  "n_unique": 9581,
+  "uniqueness": 0.9997912970885944,
+  "n_novel": 8390,
+  "novelty": 0.8756914727063981,
+  "diversity": 0.8630224468966565,
+  "sa_score_mean": 4.15406618,
+  "sa_score_std": 0.8357716939067796,
+  "hiv_mean_prob": 0.4344994176849723,
+  "hiv_active_frac": 0.023
+}

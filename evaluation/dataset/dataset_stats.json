@@ -1,0 +1,43 @@
+{
+  "moses": {
+    "train": 1548740,
+    "val": 193539,
+    "test": 193618,
+    "total": 1935897,
+    "descriptors": {
+      "MW": {
+        "mean": 307.12,
+        "std": 27.92
+      },
+      "LogP": {
+        "mean": 2.46,
+        "std": 0.9
+      },
+      "TPSA": {
+        "mean": 65.04,
+        "std": 18.06
+      },
+      "NumRings": {
+        "mean": 2.57,
+        "std": 0.81
+      },
+      "SMILES_len": {
+        "mean": 35.82,
+        "std": 4.59
+      }
+    }
+  },
+  "hiv": {
+    "train": 32762,
+    "val": 4095,
+    "test": 4096,
+    "total": 40953,
+    "n_actives": 1415,
+    "n_inactives": 39538,
+    "imbalance_ratio": 27.9
+  },
+  "hiv_actives_transfer": {
+    "train": 1033,
+    "val": 115
+  }
+}

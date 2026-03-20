@@ -1,0 +1,528 @@
+{
+  "stage": "pretrain_rl",
+  "seeds": [
+    42,
+    67,
+    1337
+  ],
+  "metrics": {
+    "validity": {
+      "mean": 0.926733,
+      "std": 0.009432,
+      "values": [
+        0.9189,
+        0.94,
+        0.9213
+      ],
+      "n": 3
+    },
+    "uniqueness": {
+      "mean": 0.998918,
+      "std": 0.000327,
+      "values": [
+        0.998476,
+        0.999255,
+        0.999023
+      ],
+      "n": 3
+    },
+    "novelty": {
+      "mean": 0.936168,
+      "std": 0.01909,
+      "values": [
+        0.960872,
+        0.933248,
+        0.914385
+      ],
+      "n": 3
+    },
+    "diversity": {
+      "mean": 0.853386,
+      "std": 0.006246,
+      "values": [
+        0.844561,
+        0.858148,
+        0.857448
+      ],
+      "n": 3
+    },
+    "sa_score_mean": {
+      "mean": 4.342592,
+      "std": 0.00988,
+      "values": [
+        4.351522,
+        4.32882,
+        4.347434
+      ],
+      "n": 3
+    },
+    "hiv_mean_prob": {
+      "mean": 0.475765,
+      "std": 0.045468,
+      "values": [
+        0.539971,
+        0.446701,
+        0.440624
+      ],
+      "n": 3
+    },
+    "hiv_median_prob": {
+      "mean": 0.433634,
+      "std": 0.06735,
+      "values": [
+        0.528351,
+        0.37758,
+        0.394972
+      ],
+      "n": 3
+    },
+    "hiv_std_prob": {
+      "mean": 0.188386,
+      "std": 0.004564,
+      "values": [
+        0.182763,
+        0.193942,
+        0.188454
+      ],
+      "n": 3
+    },
+    "hiv_max_prob": {
+      "mean": 0.98842,
+      "std": 0.003357,
+      "values": [
+        0.987519,
+        0.984834,
+        0.992906
+      ],
+      "n": 3
+    },
+    "hiv_active_frac": {
+      "mean": 0.07,
+      "std": 0.024345,
+      "values": [
+        0.103,
+        0.045,
+        0.062
+      ],
+      "n": 3
+    },
+    "fp_mean_prob": {
+      "mean": 0.151849,
+      "std": 0.006771,
+      "values": [
+        0.146644,
+        0.147491,
+        0.161412
+      ],
+      "n": 3
+    },
+    "fp_median_prob": {
+      "mean": 0.012231,
+      "std": 0.001336,
+      "values": [
+        0.012674,
+        0.010419,
+        0.0136
+      ],
+      "n": 3
+    },
+    "fp_active_frac": {
+      "mean": 0.133,
+      "std": 0.005354,
+      "values": [
+        0.126,
+        0.134,
+        0.139
+      ],
+      "n": 3
+    },
+    "gnn_fp_agreement": {
+      "mean": 0.824333,
+      "std": 0.015173,
+      "values": [
+        0.809,
+        0.845,
+        0.819
+      ],
+      "n": 3
+    }
+  },
+  "per_seed": [
+    {
+      "n_generated": 10000,
+      "n_valid": 9189,
+      "validity": 0.9189,
+      "n_unique": 9175,
+      "uniqueness": 0.9984764392208075,
+      "n_novel": 8816,
+      "novelty": 0.9608719346049046,
+      "diversity": 0.8445611031087882,
+      "sa_score_mean": 4.35152205,
+      "sa_score_std": 0.9226220128976155,
+      "hiv_mean_prob": 0.5399712492972613,
+      "hiv_median_prob": 0.5283508598804474,
+      "hiv_std_prob": 0.1827629480469156,
+      "hiv_max_prob": 0.9875186085700989,
+      "hiv_active_frac": 0.103,
+      "hiv_n_scored": 1000,
+      "fp_mean_prob": 0.14664411641931394,
+      "fp_median_prob": 0.01267415115254103,
+      "fp_active_frac": 0.126,
+      "fp_n_scored": 1000,
+      "gnn_fp_agreement": 0.809,
+      "gnn_fp_n_compared": 1000,
+      "scaffold_analysis": {
+        "n_generated_scaffolds": 4748,
+        "n_training_scaffolds": 27081,
+        "n_novel_scaffolds": 3706,
+        "scaffold_novelty": 0.7805391743892165,
+        "top_scaffolds": [
+          {
+            "scaffold": "O=C(Nc1ccccc1)c1ccccc1",
+            "count": 787
+          },
+          {
+            "scaffold": "c1ccccc1",
+            "count": 355
+          },
+          {
+            "scaffold": "O=C(NCc1ccccc1)c1ccccc1",
+            "count": 234
+          },
+          {
+            "scaffold": "O=S(=O)(Nc1ccccc1)c1ccccc1",
+            "count": 222
+          },
+          {
+            "scaffold": "c1ccc(CNc2ccccc2)cc1",
+            "count": 187
+          },
+          {
+            "scaffold": "O=C(Nc1ccccc1)Nc1ccccc1",
+            "count": 130
+          },
+          {
+            "scaffold": "O=C(COc1ccccc1)Nc1ccccc1",
+            "count": 107
+          },
+          {
+            "scaffold": "O=C(Cc1ccccc1)Nc1ccccc1",
+            "count": 98
+          },
+          {
+            "scaffold": "O=C(NCc1ccccc1)Nc1ccccc1",
+            "count": 89
+          },
+          {
+            "scaffold": "O=S(=O)(NCc1ccccc1)c1ccccc1",
+            "count": 85
+          },
+          {
+            "scaffold": "c1ccc(COc2ccccc2)cc1",
+            "count": 60
+          },
+          {
+            "scaffold": "O=C(NCCc1ccccc1)c1ccccc1",
+            "count": 52
+          },
+          {
+            "scaffold": "c1ccc(Oc2ccccc2)cc1",
+            "count": 48
+          },
+          {
+            "scaffold": "O=C(Oc1ccccc1)c1ccccc1",
+            "count": 44
+          },
+          {
+            "scaffold": "c1ccc(-c2ccccc2)cc1",
+            "count": 42
+          },
+          {
+            "scaffold": "O=C(CNc1ccccc1)Nc1ccccc1",
+            "count": 41
+          },
+          {
+            "scaffold": "O=C(Nc1ccccc1)c1cccs1",
+            "count": 31
+          },
+          {
+            "scaffold": "O=C(Cc1ccccc1)NCc1ccccc1",
+            "count": 30
+          },
+          {
+            "scaffold": "c1ccc(Nc2ccccc2)cc1",
+            "count": 30
+          },
+          {
+            "scaffold": "O=C(NCCc1ccccc1)Nc1ccccc1",
+            "count": 29
+          }
+        ]
+      },
+      "collapse_assessment": {
+        "health": "HEALTHY",
+        "flags": [],
+        "warnings": [],
+        "thresholds": {
+          "validity_low": 0.7,
+          "uniqueness_low": 0.8,
+          "diversity_low": 0.6,
+          "nll_low": 20.0
+        }
+      },
+      "seed": 42
+    },
+    {
+      "n_generated": 10000,
+      "n_valid": 9400,
+      "validity": 0.94,
+      "n_unique": 9393,
+      "uniqueness": 0.9992553191489362,
+      "n_novel": 8766,
+      "novelty": 0.93324816352603,
+      "diversity": 0.8581480566056368,
+      "sa_score_mean": 4.328819750000001,
+      "sa_score_std": 0.8936043089210614,
+      "hiv_mean_prob": 0.44670080253481864,
+      "hiv_median_prob": 0.3775801807641983,
+      "hiv_std_prob": 0.19394242157984903,
+      "hiv_max_prob": 0.9848336577415466,
+      "hiv_active_frac": 0.045,
+      "hiv_n_scored": 1000,
+      "fp_mean_prob": 0.14749140602241986,
+      "fp_median_prob": 0.010419001871269234,
+      "fp_active_frac": 0.134,
+      "fp_n_scored": 1000,
+      "gnn_fp_agreement": 0.845,
+      "gnn_fp_n_compared": 1000,
+      "scaffold_analysis": {
+        "n_generated_scaffolds": 6332,
+        "n_training_scaffolds": 27081,
+        "n_novel_scaffolds": 4845,
+        "scaffold_novelty": 0.7651610865445357,
+        "top_scaffolds": [
+          {
+            "scaffold": "c1ccccc1",
+            "count": 510
+          },
+          {
+            "scaffold": "O=C(Nc1ccccc1)c1ccccc1",
+            "count": 260
+          },
+          {
+            "scaffold": "O=C(NCc1ccccc1)c1ccccc1",
+            "count": 82
+          },
+          {
+            "scaffold": "O=C(COc1ccccc1)Nc1ccccc1",
+            "count": 51
+          },
+          {
+            "scaffold": "O=C(Cc1ccccc1)Nc1ccccc1",
+            "count": 49
+          },
+          {
+            "scaffold": "O=S(=O)(Nc1ccccc1)c1ccccc1",
+            "count": 48
+          },
+          {
+            "scaffold": "c1ccc(CNc2ccccc2)cc1",
+            "count": 46
+          },
+          {
+            "scaffold": "O=C(NCc1ccccc1)Nc1ccccc1",
+            "count": 44
+          },
+          {
+            "scaffold": "O=C(c1ccccc1)N1CCCCC1",
+            "count": 33
+          },
+          {
+            "scaffold": "O=S(=O)(NCc1ccccc1)c1ccccc1",
+            "count": 27
+          },
+          {
+            "scaffold": "O=C(Nc1ccccc1)c1cccs1",
+            "count": 26
+          },
+          {
+            "scaffold": "c1ccc(-n2cccn2)cc1",
+            "count": 22
+          },
+          {
+            "scaffold": "O=C(Nc1ccccc1)Nc1ccccc1",
+            "count": 22
+          },
+          {
+            "scaffold": "O=C(Nc1nccs1)c1ccccc1",
+            "count": 22
+          },
+          {
+            "scaffold": "O=C(Nc1cn[nH]c1)c1ccccc1",
+            "count": 21
+          },
+          {
+            "scaffold": "O=C(CNc1ccccc1)Nc1ccccc1",
+            "count": 21
+          },
+          {
+            "scaffold": "O=C(Nc1ccccc1)c1cccnc1",
+            "count": 20
+          },
+          {
+            "scaffold": "O=C(NCc1ccccc1)c1cccs1",
+            "count": 19
+          },
+          {
+            "scaffold": "O=C(Cc1ccccc1)NCc1ccccc1",
+            "count": 19
+          },
+          {
+            "scaffold": "c1cn[nH]c1",
+            "count": 17
+          }
+        ]
+      },
+      "collapse_assessment": {
+        "health": "CAUTION",
+        "flags": [],
+        "warnings": [
+          "Validity dropped 10% over training"
+        ],
+        "thresholds": {
+          "validity_low": 0.7,
+          "uniqueness_low": 0.8,
+          "diversity_low": 0.6,
+          "nll_low": 20.0
+        }
+      },
+      "seed": 67
+    },
+    {
+      "n_generated": 10000,
+      "n_valid": 9213,
+      "validity": 0.9213,
+      "n_unique": 9204,
+      "uniqueness": 0.9990231195050472,
+      "n_novel": 8416,
+      "novelty": 0.9143850499782703,
+      "diversity": 0.857447607962008,
+      "sa_score_mean": 4.34743412,
+      "sa_score_std": 0.9269885157130728,
+      "hiv_mean_prob": 0.44062423542141915,
+      "hiv_median_prob": 0.39497172832489014,
+      "hiv_std_prob": 0.18845357130403023,
+      "hiv_max_prob": 0.9929064512252808,
+      "hiv_active_frac": 0.062,
+      "hiv_n_scored": 1000,
+      "fp_mean_prob": 0.16141197467901344,
+      "fp_median_prob": 0.013599989937849286,
+      "fp_active_frac": 0.139,
+      "fp_n_scored": 1000,
+      "gnn_fp_agreement": 0.819,
+      "gnn_fp_n_compared": 1000,
+      "scaffold_analysis": {
+        "n_generated_scaffolds": 5644,
+        "n_training_scaffolds": 27081,
+        "n_novel_scaffolds": 4315,
+        "scaffold_novelty": 0.7645287030474841,
+        "top_scaffolds": [
+          {
+            "scaffold": "O=C(Nc1ccccc1)c1ccccc1",
+            "count": 452
+          },
+          {
+            "scaffold": "c1ccccc1",
+            "count": 350
+          },
+          {
+            "scaffold": "O=S(=O)(Nc1ccccc1)c1ccccc1",
+            "count": 141
+          },
+          {
+            "scaffold": "O=C(NCc1ccccc1)c1ccccc1",
+            "count": 118
+          },
+          {
+            "scaffold": "c1ccc(CNc2ccccc2)cc1",
+            "count": 75
+          },
+          {
+            "scaffold": "O=C(COc1ccccc1)Nc1ccccc1",
+            "count": 64
+          },
+          {
+            "scaffold": "O=C(Nc1ccccc1)Nc1ccccc1",
+            "count": 64
+          },
+          {
+            "scaffold": "O=C(Cc1ccccc1)Nc1ccccc1",
+            "count": 57
+          },
+          {
+            "scaffold": "O=C(NCc1ccccc1)Nc1ccccc1",
+            "count": 57
+          },
+          {
+            "scaffold": "O=S(=O)(NCc1ccccc1)c1ccccc1",
+            "count": 55
+          },
+          {
+            "scaffold": "O=C(CNc1ccccc1)Nc1ccccc1",
+            "count": 40
+          },
+          {
+            "scaffold": "O=C(Nc1ccccc1)c1cccs1",
+            "count": 32
+          },
+          {
+            "scaffold": "c1ccc(COc2ccccc2)cc1",
+            "count": 29
+          },
+          {
+            "scaffold": "O=C(Oc1ccccc1)c1ccccc1",
+            "count": 28
+          },
+          {
+            "scaffold": "O=C(Nc1ccccc1)c1ccc[nH]1",
+            "count": 28
+          },
+          {
+            "scaffold": "O=C(Nc1ccccc1)c1cccnc1",
+            "count": 26
+          },
+          {
+            "scaffold": "c1ccc(Nc2ccccc2)cc1",
+            "count": 25
+          },
+          {
+            "scaffold": "O=C(Nc1ccccc1)c1cscn1",
+            "count": 23
+          },
+          {
+            "scaffold": "c1ccc(Oc2ccccc2)cc1",
+            "count": 23
+          },
+          {
+            "scaffold": "O=C(CSc1ccccc1)Nc1ccccc1",
+            "count": 20
+          }
+        ]
+      },
+      "collapse_assessment": {
+        "health": "CAUTION",
+        "flags": [],
+        "warnings": [
+          "Validity dropped 14% over training"
+        ],
+        "thresholds": {
+          "validity_low": 0.7,
+          "uniqueness_low": 0.8,
+          "diversity_low": 0.6,
+          "nll_low": 20.0
+        }
+      },
+      "seed": 1337
+    }
+  ]
+}

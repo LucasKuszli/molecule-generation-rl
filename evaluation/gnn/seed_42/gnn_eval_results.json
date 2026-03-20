@@ -1,0 +1,11 @@
+{
+  "n_test": 4096,
+  "n_positive": 166,
+  "n_predicted_positive": 129,
+  "threshold": 0.7881,
+  "pr_auc": 0.191951,
+  "roc_auc": 0.74908,
+  "mcc": 0.218142,
+  "balanced_acc": 0.596602,
+  "f1": 0.244068
+}

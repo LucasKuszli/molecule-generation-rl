@@ -1,0 +1,125 @@
+{
+  "n_generated": 10000,
+  "n_valid": 9400,
+  "validity": 0.94,
+  "n_unique": 9393,
+  "uniqueness": 0.9992553191489362,
+  "n_novel": 8766,
+  "novelty": 0.93324816352603,
+  "diversity": 0.8581480566056368,
+  "sa_score_mean": 4.328819750000001,
+  "sa_score_std": 0.8936043089210614,
+  "hiv_mean_prob": 0.44670080253481864,
+  "hiv_median_prob": 0.3775801807641983,
+  "hiv_std_prob": 0.19394242157984903,
+  "hiv_max_prob": 0.9848336577415466,
+  "hiv_active_frac": 0.045,
+  "hiv_n_scored": 1000,
+  "fp_mean_prob": 0.14749140602241986,
+  "fp_median_prob": 0.010419001871269234,
+  "fp_active_frac": 0.134,
+  "fp_n_scored": 1000,
+  "gnn_fp_agreement": 0.845,
+  "gnn_fp_n_compared": 1000,
+  "scaffold_analysis": {
+    "n_generated_scaffolds": 6332,
+    "n_training_scaffolds": 27081,
+    "n_novel_scaffolds": 4845,
+    "scaffold_novelty": 0.7651610865445357,
+    "top_scaffolds": [
+      {
+        "scaffold": "c1ccccc1",
+        "count": 510
+      },
+      {
+        "scaffold": "O=C(Nc1ccccc1)c1ccccc1",
+        "count": 260
+      },
+      {
+        "scaffold": "O=C(NCc1ccccc1)c1ccccc1",
+        "count": 82
+      },
+      {
+        "scaffold": "O=C(COc1ccccc1)Nc1ccccc1",
+        "count": 51
+      },
+      {
+        "scaffold": "O=C(Cc1ccccc1)Nc1ccccc1",
+        "count": 49
+      },
+      {
+        "scaffold": "O=S(=O)(Nc1ccccc1)c1ccccc1",
+        "count": 48
+      },
+      {
+        "scaffold": "c1ccc(CNc2ccccc2)cc1",
+        "count": 46
+      },
+      {
+        "scaffold": "O=C(NCc1ccccc1)Nc1ccccc1",
+        "count": 44
+      },
+      {
+        "scaffold": "O=C(c1ccccc1)N1CCCCC1",
+        "count": 33
+      },
+      {
+        "scaffold": "O=S(=O)(NCc1ccccc1)c1ccccc1",
+        "count": 27
+      },
+      {
+        "scaffold": "O=C(Nc1ccccc1)c1cccs1",
+        "count": 26
+      },
+      {
+        "scaffold": "c1ccc(-n2cccn2)cc1",
+        "count": 22
+      },
+      {
+        "scaffold": "O=C(Nc1ccccc1)Nc1ccccc1",
+        "count": 22
+      },
+      {
+        "scaffold": "O=C(Nc1nccs1)c1ccccc1",
+        "count": 22
+      },
+      {
+        "scaffold": "O=C(Nc1cn[nH]c1)c1ccccc1",
+        "count": 21
+      },
+      {
+        "scaffold": "O=C(CNc1ccccc1)Nc1ccccc1",
+        "count": 21
+      },
+      {
+        "scaffold": "O=C(Nc1ccccc1)c1cccnc1",
+        "count": 20
+      },
+      {
+        "scaffold": "O=C(NCc1ccccc1)c1cccs1",
+        "count": 19
+      },
+      {
+        "scaffold": "O=C(Cc1ccccc1)NCc1ccccc1",
+        "count": 19
+      },
+      {
+        "scaffold": "c1cn[nH]c1",
+        "count": 17
+      }
+    ]
+  },
+  "collapse_assessment": {
+    "health": "CAUTION",
+    "flags": [],
+    "warnings": [
+      "Validity dropped 10% over training"
+    ],
+    "thresholds": {
+      "validity_low": 0.7,
+      "uniqueness_low": 0.8,
+      "diversity_low": 0.6,
+      "nll_low": 20.0
+    }
+  }
+}

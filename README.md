@@ -6,7 +6,7 @@ A character-level SMILES language model that generates new drug-like molecules, 
   <img src="img/molecule_panel.png" width="820" alt="Generated molecules predicted active, per pipeline stage, next to known HIV actives">
 </p>
 
-Joint project with Anton Lyckhage, Chalmers University of Technology, March 2026.
+Joint project with Anton Lyckhage, Chalmers University of Technology, March 2026. **[Read the report (PDF)](docs/report.pdf)**, *Designing novel HIV replication inhibitors via GNN prediction and LSTM SMILES generation*.
 
 ## Pipeline
 

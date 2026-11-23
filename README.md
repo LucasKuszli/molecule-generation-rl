@@ -6,6 +6,8 @@ A character-level SMILES language model that generates new drug-like molecules, 
   <img src="img/molecule_panel.png" width="820" alt="Generated molecules predicted active, per pipeline stage, next to known HIV actives">
 </p>
 
+Joint project with Anton Lyckhage, Chalmers University of Technology, March 2026.
+
 ## Pipeline
 
 1. **Pretrain** an LSTM on SMILES strings from the MOSES dataset (1.5 million drug-like molecules) so it learns to write valid molecules.
